@@ -9,7 +9,7 @@ if(file_exists( "$classe.php" )) {
     }
 );
 
-$p = new Pessoa('mysql:host=localhost;dbname=exemplocrud', 'root', '');
+$p = new Pessoa('mysql:host=localhost;dbname=exemplocrud', 'root', 'INSIRA SUA SENHA');
 
 ?>
 
